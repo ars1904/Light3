@@ -1,0 +1,6 @@
+list_1=input("Введите элементы списка через запятую: ")
+list_1=list_1.split(',')
+list_1 = list(map(int, list_1))
+print(list_1)
+list_2=set(list_1)
+print(list(list_2))
